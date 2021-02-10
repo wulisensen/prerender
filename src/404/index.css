@@ -1,0 +1,16 @@
+.page-404-content {
+    padding-top: 3rem;
+}
+.page-404-content .icon {
+    width: 1.12rem;
+    height: 1.12rem;
+    margin: 0 auto;
+    background: url('./img/e500.png');
+    background-size: 100% 100%;
+}
+.page-404-content .text {
+    margin-top: 0.6rem;
+    text-align: center;
+    color: #333;
+    font-size: 0.16rem;
+}

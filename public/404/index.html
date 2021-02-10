@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,viewport-fit=cover">
+    <link rel="shortcut icon" href="//ali.static.yximgs.com/udata/pkg/fe/kwai_icon.0fa49427.ico" type="image/x-icon">
+    <title>404</title>
+    <script type="text/javascript">
+        (function flexible() {
+            var docEl = document.documentElement;
+            var width = Math.min(docEl.clientWidth, 750);
+            var e = width / 7.5;
+            docEl.style.fontSize = e + 'px';
+            // 修正系统字体调整造成的布局问题
+            var realitySize = parseFloat(window.getComputedStyle(docEl).fontSize);
+            if (e !== realitySize) {
+                e = e * e / realitySize;
+                docEl.style.fontSize = e + 'px';
+            }
+            window.addEventListener('resize', flexible);
+        }());
+    </script>
+  </head>
+  <body ontouchstart="">
+    <noscript>
+      <strong>请开启浏览器的 JavaScript 功能，否则页面无法正常工作</strong>
+    </noscript>
+    <div id="app"></div>
+    <div class="page-404-content">
+        <div class="icon"></div>
+        <div class="text">出错了，请稍后再试</div>
+    </div>
+    <script type="text/javascript" src="//ali.static.yximgs.com/udata/pkg/fe/ks-log.1.0.19.js" data-autopv="true" crossorigin="anonymous"></script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
